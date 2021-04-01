@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Selection Page</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <!--Created div with id="result", that will show which color the user clicked.-->
+    <!--Created a button that links back to the index.html page for the user to make another selection.-->
+    <!--When the button is clicked, it will activate the restart function, which will delete the cookies off the page.-->
+
+    <h1>You have selected:</h1>
+
+    <div id="result"></div>
+
+    <br>
+
+    <a href="index.html"><button id="button" onclick="restart()">Go back</button></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+    <script src="app2.js"></script>
+
+</body>
+
+</html>

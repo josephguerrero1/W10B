@@ -1,0 +1,22 @@
+div {
+  width: 20vw;
+  height: 80vh;
+  display: -ms-grid;
+  display: grid;
+  row-gap: 20px;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+}
+
+div #red {
+  background-color: red;
+}
+
+div #yellow {
+  background-color: yellow;
+}
+
+div #green {
+  background-color: green;
+}
+/*# sourceMappingURL=style.css.map */

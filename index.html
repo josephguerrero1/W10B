@@ -12,12 +12,32 @@
 
     <title>W10B</title>
 
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-<script src="app.js"></script>
-    
+    <h1>Choose a color</h1>
+
+    <!-- Created 3 a tags that link to selection.html page, with ids of red, yellow, and green. -->
+    <!--When clicked, the user will go to the selection.html page, and the function selectColor will activate.-->
+    <!--This will create cookies with the name and value of the color the user has selected.-->
+
+    <div>
+
+        <a href="selection.html" id="red" onclick="selectColor('red')"></a>
+
+        <a href="selection.html" id="yellow" onclick="selectColor('yellow')"></a>
+
+        <a href="selection.html" id="green" onclick="selectColor('green')"></a>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+
+    <script src="app.js"></script>
+
 </body>
 
 </html>

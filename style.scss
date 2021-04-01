@@ -1,0 +1,19 @@
+div {
+    width: 20vw;
+    height: 80vh;
+    display: grid;
+    row-gap: 20px;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    #red {
+    background-color: red;
+    }
+
+    #yellow {
+        background-color: yellow;
+    }
+
+    #green {
+        background-color: green;
+    }
+}
